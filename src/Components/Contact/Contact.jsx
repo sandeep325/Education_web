@@ -13,7 +13,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "accesskey-from-https://web3forms.com/");
+    formData.append("access_key", "4ebb13d1-2c07-4424-b6d9-200717b3cc8b");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -49,9 +49,9 @@ const Contact = () => {
         <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input type="text" name="name" required={true} placeholder='Enter your name...'/>
-{/* 
+
           <label>Your email</label>
-          <input type="text" name="email" required={true} placeholder='example@gmail.com'/> */}
+          <input type="text" name="email" required={true} placeholder='example@gmail.com'/>
 
           <label>Your phone</label>
           <input type="tel" name="phone" required={true} placeholder='+91'/>
