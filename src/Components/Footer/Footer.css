@@ -22,3 +22,17 @@ margin-right: 5px;
 .footer p {
     margin-left: 5px;
 }
+
+/* meida query */
+@media (max-width:600px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}
