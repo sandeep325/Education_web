@@ -1,14 +1,16 @@
-.about{
+.about {
     margin: 100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
 }
+
 .left-about {
     flex-basis: 40%;
     position: relative;
 }
+
 .right-about {
     flex-basis: 56%;
 }
@@ -17,12 +19,14 @@
     width: 100%;
     border-radius: 10px;
 }
-.play-icon{
+
+.play-icon {
     width: 60px;
     position: absolute;
-    top:50%;
-left: 50%;
-transition: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .about h3 {
@@ -55,6 +59,7 @@ transition: translate(-50%,-50%);
         margin: 20px;
         order: 2;
     }
+
     .right-about {
         flex-basis: 100%;
         /* order: 1; */
