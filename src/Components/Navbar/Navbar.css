@@ -33,6 +33,7 @@ nav ul li {
 .menu-icon {
     display: none;
 }
+
 /* media query here  */
 @media (max-width:1200px) {
 
@@ -53,7 +54,7 @@ nav ul li {
 
     nav ul {
         position: fixed;
-        top:0;
+        top: 0;
         right: 0;
         background-color: #212EA0;
         width: 200px;
@@ -62,16 +63,18 @@ nav ul li {
         padding-top: 70px;
         transition: 0.5s;
     }
+
     nav ul li {
         display: block;
         margin: 25px 40px;
     }
 
     .menu-icon {
-        display:block;
+        display: block;
         width: 25px;
         cursor: pointer;
     }
+
     .hide-mobile-menu {
         right: -200px;
     }

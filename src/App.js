@@ -11,24 +11,24 @@ import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
 
 const App = () => {
-  const [playState ,setPlayStae] =  useState(false);
+  const [playState, setPlayStae] = useState(false);
   return (
     <div>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <div className='container'>
-      <Title title="What we offer" subtitle="OUR PROGRAM"/>
-      <Programs/>
-      <About setPlayStae={setPlayStae}/>
-      <Title title="Campus Photos" subtitle="Gallery"/>
-      <Campus/>
-      <Title title="What students says" subtitle="Testiminials"/>
-      <Testimonial/>
-      <Title title="Contact Us" subtitle="Get in touch"/>
-      <Contact/>
+        <Title title="What we offer" subtitle="OUR PROGRAM" />
+        <Programs />
+        <About setPlayStae={setPlayStae} />
+        <Title title="Campus Photos" subtitle="Gallery" />
+        <Campus />
+        <Title title="What students says" subtitle="Testiminials" />
+        <Testimonial />
+        <Title title="Contact Us" subtitle="Get in touch" />
+        <Contact />
       </div>
-      <Footer/>
-      <VideoPlayer  playState={playState}  setPlayStae={setPlayStae}/>
+      <Footer />
+      <VideoPlayer playState={playState} setPlayStae={setPlayStae} />
     </div>
   )
 }

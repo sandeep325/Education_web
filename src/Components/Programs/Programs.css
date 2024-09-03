@@ -1,21 +1,23 @@
-.programs{
+.programs {
     margin: 80px auto;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .program img {
     width: 100%;
     border-radius: 12px;
     display: block;
 }
-.program{
-    flex-basis:31%;
+
+.program {
+    flex-basis: 31%;
     position: relative;
 }
 
-.caption{
+.caption {
     border-radius: 10px;
     position: absolute;
     top: 0;
@@ -30,8 +32,8 @@
     color: #fff;
     cursor: pointer;
     opacity: 0;
-    padding-top: 70%; 
-    transition:0.4s;
+    padding-top: 70%;
+    transition: 0.4s;
 }
 
 .caption img {
@@ -39,7 +41,7 @@
     margin-bottom: 10px;
 }
 
-.program:hover .caption{
+.program:hover .caption {
     opacity: 1;
     padding-top: 0%;
 }

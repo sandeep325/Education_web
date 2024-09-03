@@ -33,32 +33,32 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact-col'>
-        <h3>Send us a message<img src={msg_icon} alt=""/></h3>
+        <h3>Send us a message<img src={msg_icon} alt="" /></h3>
         <p>Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us.
-        Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us.
-        Fell free to reach out us. Fell free to reach out us. Fell free to reach out us.Fell free to reach out us. Fell free to reach out us.
-         Fell free to reach out us. Fell free to reach out us.Fell free to reach out us.</p>
-         <ul>
-            <li><img src= {mail_icon} alt=''/>sandeep@gmail.com</li>
-            <li><img src={phone_icon} alt=''/>+91 9991237000</li>
-            <li><img src={location_icon} alt=''/>North delhi ,Delhi,India</li>
-         </ul>
+          Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us. Fell free to reach out us.
+          Fell free to reach out us. Fell free to reach out us. Fell free to reach out us.Fell free to reach out us. Fell free to reach out us.
+          Fell free to reach out us. Fell free to reach out us.Fell free to reach out us.</p>
+        <ul>
+          <li><img src={mail_icon} alt='' />sandeep@gmail.com</li>
+          <li><img src={phone_icon} alt='' />+91 9991237000</li>
+          <li><img src={location_icon} alt='' />North delhi ,Delhi,India</li>
+        </ul>
       </div>
       {/* contact form here  */}
       <div className='contact-col'>
         <form onSubmit={onSubmit}>
           <label>Your name</label>
-          <input type="text" name="name" required={true} placeholder='Enter your name...'/>
+          <input type="text" name="name" required={true} placeholder='Enter your name...' />
 
           <label>Your email</label>
-          <input type="text" name="email" required={true} placeholder='example@gmail.com'/>
+          <input type="text" name="email" required={true} placeholder='example@gmail.com' />
 
           <label>Your phone</label>
-          <input type="tel" name="phone" required={true} placeholder='+91'/>
+          <input type="tel" name="phone" required={true} placeholder='+91' />
 
           <label>Write your message</label>
-         <textarea name="message" id="" col="30" rows="10"></textarea>
-                      <button type ="submit" className='btn dark-btn'>Send<img src={white_arrow} alt=""/></button>
+          <textarea name="message" id="" col="30" rows="10"></textarea>
+          <button type="submit" className='btn dark-btn'>Send<img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
       </div>
