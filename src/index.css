@@ -44,3 +44,14 @@ a {
 color: #fff;
 background-color: #212EA0;
 }
+
+/* media query here  */
+@media (max-width:1200px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .btn {
+        padding: 14px 22px;
+    }
+}
